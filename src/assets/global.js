@@ -313,7 +313,7 @@ export const ajax = function(){
     var original_ajax = function(url, data, context, func, option, type){
         $.ajax({
             type: type,
-            url: ((option&&option.full_target===true) ? '' : 'http://20.89.42.33:8008') + url,
+            url: ((option&&option.full_target===true) ? '' : 'http://10.251.252.117:8008') + url,
             headers: {'X-CSRFToken': getCookie('csrftoken'),},
             data: data ? (option&&option.form ? data : JSON.stringify(data)) : undefined,
             processData: false,
