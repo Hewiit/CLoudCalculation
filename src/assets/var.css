@@ -1,0 +1,17 @@
+:root {
+    --nav-height: 60px;
+    --cross-analysis-header-height: 45px;
+    --font-size: 16px;
+    --font-size-big: 18px;
+    --min-width: 1300px;
+    --color-t: #6683b7;
+    --color-t-deep: hsl(219, 36%, 45%);
+    --color-high-risk: #cb3434;
+    --color-high-risk-deep: hsl(0, 59%, 50%);
+    --color-mid-risk: #d88846;
+    --color-low-risk: #e4b921;
+    --color-safe: #1882c3;
+    --color-life: #4aba53;
+    --color-died: #808080;
+    --color-test: #eaeae1;
+}

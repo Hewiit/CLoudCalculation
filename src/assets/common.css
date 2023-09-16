@@ -1,0 +1,153 @@
+/* 找不到的提示的样式 */
+.not_found{
+    font-size: var(--font-size);
+    text-align: center !important;
+    color: #aaa;
+    line-height: 20px;
+}
+
+.pointer, .cur_poi{
+    cursor:pointer !important;
+}
+
+.cur_def, .curdef{
+    cursor: default !important;
+}
+
+.border {
+    /* border: 1px solid black; */
+}
+
+/* 不允许被选中 */
+.can_not_choose, .no_choose{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+}
+
+.clear_both{
+    float: none !important;
+    clear: both !important;
+}
+
+/* 文本溢出处理 */
+.text_overflow_1{
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /* 行数 */
+    overflow: hidden;
+}
+
+.text_overflow_2{
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* 行数 */
+    overflow: hidden;
+}
+
+.text_overflow_3{
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* 行数 */
+    overflow: hidden;
+}
+
+.text_overflow_4{
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; /* 行数 */
+    overflow: hidden;
+}
+
+.text_overflow_5{
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5; /* 行数 */
+    overflow: hidden;
+}
+
+.text_overflow_6{
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* 行数 */
+    overflow: hidden;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 27px;
+}
+
+h3{
+    font-size: 23px;
+}
+
+h4{
+    font-size: 21px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+h6{
+    font-size: 16px;
+}
+
+.shadow{
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .2);
+}
+
+.tag{
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    margin: 6px 6px 5px 6px;
+    padding: 0 10px;
+    line-height: 21px;
+    height:21px
+}
+
+.logo{
+    background-image: url('../assets/logo.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('./iconfont/iconfont.ttf?t=1634813711231') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar, .magic_scroll::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb, .magic_scroll::-webkit-scrollbar-thumb {
+    background-color: hsla(0, 0%, 56%, 0.35);
+}
+
+:hover::-webkit-scrollbar-thumb, .magic_scroll:hover::-webkit-scrollbar-thumb {
+    background-color: hsla(0, 0%, 56%, 0.69);
+}
