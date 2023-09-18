@@ -106,7 +106,7 @@
       </div>
       <!--todo: 加个说明-->
       <span slot="footer" class="dialog-footer">
-        <el-button @click="createContainerDialog = false">取 消</el-button>
+        <el-button type="danger" @click="createContainerDialog = false">取 消</el-button>
         <el-button type="primary" @click="confirmCreateContainer">确 定</el-button>
       </span>
     </el-dialog>

@@ -76,7 +76,7 @@ export default {
 }
 
 .iconfont {
-  font-size: 18px;
+  font-size: 25px;
   margin-left: 5px;
 }
 
