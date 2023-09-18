@@ -1,0 +1,8 @@
+body {
+  background-image: url('back.jpg'); /* 替换为你想要的背景图片路径 */
+  background-size: cover; /* 保持背景图片覆盖整个屏幕 */
+  background-repeat: no-repeat; /* 禁止背景图片重复 */
+  background-attachment: fixed; /* 固定背景图片，不随滚动而滚动 */
+  /* 可以根据需要设置背景颜色 */
+  background-color: #f0f0f0; /* 设置背景颜色，用于背景图片加载前或背景图片未覆盖整个屏幕时显示 */
+}

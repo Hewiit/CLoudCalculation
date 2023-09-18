@@ -1,8 +1,8 @@
-<template>
+<template >
   <div class="container-main">
     <div class="container-list">
       <div class="container-buttons">
-        <div class="container-list-title">
+        <div class="container-list-title" >
           <span class="iconfont" style="font-weight: bold">&#xe629;</span>&nbsp;容器列表
         </div>
         <el-button type="primary" size="small" icon="el-icon-plus" @click="addContainer">添加容器</el-button>
@@ -106,7 +106,7 @@
       </div>
       <!--todo: 加个说明-->
       <span slot="footer" class="dialog-footer">
-        <el-button @click="createContainerDialog = false">取 消</el-button>
+        <el-button type="danger" @click="createContainerDialog = false">取 消</el-button>
         <el-button type="primary" @click="confirmCreateContainer">确 定</el-button>
       </span>
     </el-dialog>

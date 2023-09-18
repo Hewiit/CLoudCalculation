@@ -3,8 +3,8 @@
     <div class="image-list">
       <div class="image-buttons">
         <div class="image-list-title"><span class="iconfont">&#xe60e;</span>&nbsp;镜像列表</div>
-        <el-button type="danger" size="small" @click="deleteImage">删除镜像</el-button>
-        <el-button type="primary" size="small" @click="pullImage">创建新镜像</el-button>
+        <el-button type="danger" size="medium" @click="deleteImage">删除镜像</el-button>
+        <el-button type="primary" size="medium" @click="pullImage">创建新镜像</el-button>
         <!--el-button type="success" size="small">导出镜像</el-button-->
       </div>
 <!--      <div class="image-search">-->
@@ -30,7 +30,7 @@
           <el-table-column
             prop="id"
             label="id"
-            min-width="2">
+            min-width="1">
           </el-table-column>
           <el-table-column
             prop="tag"
@@ -40,7 +40,7 @@
           <el-table-column
             prop="size"
             label="大小"
-            min-width="1">
+            min-width="2">
           </el-table-column>
           <el-table-column
             prop="time"
