@@ -7,14 +7,14 @@
         <el-button type="primary" size="small" @click="pullImage">创建新镜像</el-button>
         <!--el-button type="success" size="small">导出镜像</el-button-->
       </div>
-      <div class="image-search">
-        <el-input v-model="input" placeholder="搜索本地镜像" @keyup.enter.native="search">
-          <el-select v-model="select" slot="prepend" placeholder="请选择" style="width: 80px">
-            <el-option label="标签" value="1"></el-option>
-          </el-select>
-          <el-button slot="append" icon="el-icon-search" @click="search"></el-button>
-        </el-input>
-      </div>
+<!--      <div class="image-search">-->
+<!--        <el-input v-model="input" placeholder="搜索本地镜像" @keyup.enter.native="search">-->
+<!--          <el-select v-model="select" slot="prepend" placeholder="请选择" style="width: 80px">-->
+<!--            <el-option label="标签" value="1"></el-option>-->
+<!--          </el-select>-->
+<!--          <el-button slot="append" icon="el-icon-search" @click="search"></el-button>-->
+<!--        </el-input>-->
+<!--      </div>-->
       <div class="images">
         <el-table
           :data="imageData"

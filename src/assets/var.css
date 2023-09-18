@@ -1,9 +1,9 @@
 :root {
-    --nav-height: 60px;
+    --nav-height: 40px;
     --cross-analysis-header-height: 45px;
     --font-size: 16px;
     --font-size-big: 18px;
-    --min-width: 1300px;
+    --min-width: 1000px;
     --color-t: #6683b7;
     --color-t-deep: hsl(219, 36%, 45%);
     --color-high-risk: #cb3434;

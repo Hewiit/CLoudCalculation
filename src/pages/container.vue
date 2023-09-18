@@ -7,9 +7,15 @@
         </div>
         <el-button type="primary" size="small" icon="el-icon-plus" @click="addContainer">添加容器</el-button>
         <el-button-group>
-          <el-button type="success" size="small" icon="el-icon-switch-button" @click="startContainer">开始</el-button>
-          <el-button type="danger" size="small" icon="el-icon-close" @click="stopContainer">停止</el-button>
-          <el-button type="danger" size="small" icon="el-icon-delete" @click="deleteContainer">删除</el-button>
+          <span>
+            <el-button type="success" size="small" icon="el-icon-switch-button" @click="startContainer">开始</el-button>
+          </span>
+          <span>
+            <el-button type="warning" size="small" icon="el-icon-close" @click="stopContainer">停止</el-button>
+          </span>
+          <span>
+            <el-button type="danger" size="small" icon="el-icon-delete" @click="deleteContainer">删除</el-button>
+          </span>
         </el-button-group>
       </div>
       <div class="container-search">

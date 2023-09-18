@@ -15,10 +15,6 @@
         <span class="iconfont" style="font-weight: bold">&#xe629;</span>
         <span slot="title" class="nav-subtitle">容器管理</span>
       </el-menu-item>
-      <el-menu-item index="3">
-        <span class="iconfont">&#xf0174;</span>
-        <span slot="title" class="nav-subtitle">应用部署</span>
-      </el-menu-item>
     </el-menu>
   </div>
 </template>
